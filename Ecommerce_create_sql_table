@@ -2,7 +2,7 @@
 this code creat the following tables:
 1. ecommerce.list_of_orders
 2. ecommerce.order_details
-3. olist_order_items_dataset
+3. ecommerce.sales_target
 */
 
 create table ecommerce.list_of_orders (
