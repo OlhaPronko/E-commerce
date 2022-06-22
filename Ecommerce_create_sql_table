@@ -20,15 +20,8 @@ create table ecommerce.order_details (
         quantity int,
         category varchar(50),
         subcategory varchar (50));
-        
-        
-        
-create table ecommerce.sales_target (
-        year_of_order smallint,
-        month_of_order smallint,
-        category varchar(50),
-        target int)
-        
+            
+       
 create table ecommerce.sales_target (
         month_of_order date,
         category varchar(50),
