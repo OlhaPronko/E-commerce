@@ -29,4 +29,8 @@ create table ecommerce.sales_target (
         category varchar(50),
         target int)
         
+create table ecommerce.sales_target (
+        month_of_order date,
+        category varchar(50),
+        target int)
 
