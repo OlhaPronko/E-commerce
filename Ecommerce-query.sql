@@ -41,8 +41,9 @@ FROM
                   
                   FROM ecommerce.order_details as a 
                   LEFT JOIN ecommerce.list_of_orders b ON a.order_id = b.order_id
-                  LEFT JOIN ecommerce.sales_target c ON a.category = c.category AND date_part('year', order_date) = date_part('year', month_of_order) 
-                                                                                AND date_part('month', order_date) = date_part('month', month_of_order)
+                  LEFT JOIN ecommerce.sales_target c ON a.category = c.category 
+                                                     AND date_part('year', order_date) = date_part('year', month_of_order) 
+                                                     AND date_part('month', order_date) = date_part('month', month_of_order)
 
                   
                   ) AS d
