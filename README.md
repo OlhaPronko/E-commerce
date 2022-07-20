@@ -9,3 +9,4 @@ Table of content:
 5. Aggregate data in Postgres (SQL).
 6. Visualize data in Tableau.
 7. Publish results to Tableau Public: 
+https://public.tableau.com/views/Ecommerce-SalesAnalysis/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link
